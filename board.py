@@ -4,3 +4,4 @@ class Board(object):
 
     def __init__(self):
         super(Board, self).__init__()
+        self.chessBoard = [ ["" for j in range(8)] for i in range(8) ]

@@ -1,4 +1,3 @@
-from pieces import *
 class Board(object):
     """docstring for Board."""
 

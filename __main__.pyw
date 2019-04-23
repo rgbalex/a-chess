@@ -10,6 +10,6 @@
 
 # My module imports
 from board import Board
+from pieces import *
 
-b=Board()
-print(b)
+chessboard = Board()

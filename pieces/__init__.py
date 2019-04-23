@@ -5,9 +5,8 @@ __all__ = []
 
 import os
 for module in os.listdir(os.path.dirname(__file__)):
-    if module == '__init__.py' or module[-3:] != '.py':
+    if module in ('__init__.py', 'piece.py') or module[-3:] != '.py':
         continue
     __all__.append(module[:-3])
-print(__all__)
 del module
 del os

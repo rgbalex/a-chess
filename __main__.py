@@ -7,3 +7,7 @@
 # Manage if someone has won and saves the score/time/who won to disk
 # Restarts the game
 # Exits the game
+
+from board import Board
+b = Board()
+print(b)

@@ -1,4 +1,4 @@
-from piece import ChessPiece
+from .piece import ChessPiece
 class Bishop(ChessPiece):
     """docstring for Bishop."""
 

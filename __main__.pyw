@@ -9,11 +9,12 @@
 # Exits the game
 
 # My module imports
-from board import Board
-from pieces import *
-chessboard = Board()
-print(chessboard)
-chessboard.place(Knight(True, (1,1)))
-print(chessboard)
-chessboard.reset()
-print(chessboard)
+
+
+# from board import Board
+# game = Board()
+# game.start()
+
+
+from guiBoard import GameWindow
+game = GameWindow()

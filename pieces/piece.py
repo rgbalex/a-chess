@@ -26,9 +26,9 @@ class ChessPiece(object):
     [(0,0), (1,0), (2,0), (3,0), (4,0), (5,0), (6,0), (7,0)]
     (where (3,0) is the white king)
     """
-    def __init__(self, color, position):
+    def __init__(self, color):
         self.color = color # bool
-        self.position = position # tuple of co-ordinates
+        # self.position = position # tuple of co-ordinates
 
     def __str__(self):
         return ("White" if self.color else "Black") + " " + self.__class__.__name__
